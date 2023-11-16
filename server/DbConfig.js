@@ -1,6 +1,6 @@
 module.exports = Object.freeze({
-  DB_HOST: "",
-  DB_USER: "master",
-  DB_PWD: "administrator",
-  DB_DATABASE: "administrator",
+  DB_HOST: process.env.DB_HOST,
+  DB_USER: process.env.DB_USER,
+  DB_PWD: process.env.DB_PASSWD,
+  DB_DATABASE: process.env.DB_NAME,
 });
